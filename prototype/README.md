@@ -21,5 +21,9 @@ cd example/DIPSUM
 ./run_nodes
 ```
 
+After the experiment is done (i.e., all python scripts terminated), run:
 
-
+```py
+python addup_aggregates_and_messages.py
+```
+to examine the resulting aggregate value as well as the execution duration.
