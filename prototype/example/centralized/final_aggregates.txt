@@ -1,0 +1,1 @@
+Global trace accumulated 956538009 aggregates ABCDEFG

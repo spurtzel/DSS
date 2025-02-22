@@ -1,0 +1,58 @@
+{
+  "forwarding": {
+    "node_id": 2,
+    "forwarding_table": [
+      [
+        "D",
+        [
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      [
+        "AB_B",
+        [
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ]
+    ]
+  },
+  "processing": [
+    {
+      "query_name": "SEQ(A,B)",
+      "output_selection": [
+        "A",
+        "B"
+      ],
+      "subqueries": [
+        "SEQ(A,B)"
+      ],
+      "inputs": [
+        [
+          "A",
+          "B"
+        ]
+      ],
+      "sequence_constraints": [
+        [
+          [
+            "A",
+            "B"
+          ]
+        ]
+      ],
+      "id_constraints": [
+        []
+      ],
+      "final_aggregagte_evaluation": false,
+      "cut_event_type": "B"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+query = "ABCDEFG"
+local_rate = {'A': 149, 'B': 1, 'C': 9, 'D': 1, 'E': 1, 'F': 2, 'G': 87}
+global_rate = {'A': 1639, 'B': 8, 'C': 99, 'D': 11, 'E': 11, 'F': 26, 'G': 957}
+network = [[149, 0, 9, 1, 0, 0, 87], [0, 0, 0, 0, 0, 2, 0], [149, 1, 9, 0, 0, 0, 0], [149, 1, 9, 1, 0, 2, 0], [149, 0, 9, 1, 1, 0, 0], [0, 0, 9, 1, 1, 0, 0], [0, 0, 9, 0, 0, 0, 87], [0, 0, 9, 1, 0, 0, 0], [0, 1, 9, 1, 1, 2, 87], [149, 0, 0, 1, 1, 2, 87], [149, 1, 0, 0, 0, 2, 87], [0, 0, 9, 1, 1, 2, 0], [149, 0, 0, 1, 1, 2, 87], [0, 1, 0, 1, 1, 2, 87], [0, 0, 9, 1, 0, 2, 87], [149, 0, 0, 0, 1, 2, 87], [149, 1, 0, 0, 1, 2, 87], [149, 1, 9, 0, 1, 2, 87], [149, 0, 0, 0, 1, 0, 0], [0, 1, 0, 0, 0, 2, 0]]
+eventtype_to_nodes = {'A': [1, 3, 4, 5, 10, 11, 13, 16, 17, 18, 19], 'B': [3, 4, 9, 11, 14, 17, 18, 20], 'C': [1, 3, 4, 5, 6, 7, 8, 9, 12, 15, 18], 'D': [1, 4, 5, 6, 8, 9, 10, 12, 13, 14, 15], 'E': [5, 6, 9, 10, 12, 13, 14, 16, 17, 18, 19], 'F': [2, 4, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20], 'G': [0, 6, 8, 9, 10, 12, 13, 14, 15, 16, 17]}
+
+Central cost(2502)
+
+Bruteforce cost(558):
+ [{'type': 'push', 'aggregate': 'B', 'targetEtype': 'A', 'targetSinkType': 'MuSi', 'targetNode': None}, {'type': 'push', 'aggregate': 'DEF', 'targetEtype': 'C', 'targetSinkType': 'SiSi', 'targetNode': 17}, {'type': 'aggr', 'aggregate': 'AB', 'targetEtype': 'C', 'sendRateEtype': 'B', 'sourceEtype': 'A', 'targetSinkType': 'SiSi', 'sourceSinkType': 'MuSi', 'targetNode': 17, 'sourceNode': None}, {'type': 'aggr', 'aggregate': 'ABCDEF', 'targetEtype': 'G', 'sendRateEtype': 'F', 'sourceEtype': 'C', 'targetSinkType': 'MuSi', 'sourceSinkType': 'SiSi', 'targetNode': None, 'sourceNode': 17}]
+
+Aggregate Placement: [('AB', 'A', None, 'B'), ('ABCDEF', 'C', 17, 'F'), ('ABCDEFG', 'G', None, 'G')]

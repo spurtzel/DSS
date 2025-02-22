@@ -1,0 +1,34 @@
+Overall Timestamps:
+  Earliest timestamp: 12:59:30.434253 from file: 1.log
+  Latest timestamp:   12:59:38.967248 from file: 0.log
+  Duration:           0:00:08.532995
+
+Per File Statistics:
+File: 0.log
+  Messages received count:                   781
+  Complex events count:                      0
+  Sum from FinalWindowProcessFunction lines: 3931777
+
+File: 1.log
+  Messages received count:                   10
+  Complex events count:                      0
+  Sum from FinalWindowProcessFunction lines: 0
+
+File: 2.log
+  Messages received count:                   1017
+  Complex events count:                      0
+  Sum from FinalWindowProcessFunction lines: 0
+
+File: 3.log
+  Messages received count:                   781
+  Complex events count:                      0
+  Sum from FinalWindowProcessFunction lines: 3916921
+
+File: 4.log
+  Messages received count:                   7
+  Complex events count:                      0
+  Sum from FinalWindowProcessFunction lines: 0
+
+Ground truth #matches: 7848698
+Computed #matches: 7848698
+Difference: 0 - that's perfect!!

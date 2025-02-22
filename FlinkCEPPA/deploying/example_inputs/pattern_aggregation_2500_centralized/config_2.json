@@ -1,0 +1,61 @@
+{
+  "forwarding": {
+    "node_id": 2,
+    "forwarding_table": []
+  },
+  "processing": [
+    {
+      "query_name": "SEQ(A,B,C,D)",
+      "output_selection": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "subqueries": [
+        "SEQ(A,B,C,D)"
+      ],
+      "inputs": [
+        [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      ],
+      "sequence_constraints": [
+        [
+          [
+            "A",
+            "B"
+          ],
+          [
+            "A",
+            "C"
+          ],
+          [
+            "A",
+            "D"
+          ],
+          [
+            "B",
+            "C"
+          ],
+          [
+            "B",
+            "D"
+          ],
+          [
+            "C",
+            "D"
+          ]
+        ]
+      ],
+      "id_constraints": [
+        []
+      ],
+      "final_aggregagte_evaluation": true,
+      "cut_event_type": "D"
+    }
+  ]
+}

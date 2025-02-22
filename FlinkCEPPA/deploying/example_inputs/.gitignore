@@ -1,0 +1,7 @@
+*.log
+*.err
+mem_usage
+throughput
+memory_usage_node*.csv
+throughput_node*.csv
+old_results

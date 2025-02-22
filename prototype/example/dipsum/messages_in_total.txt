@@ -1,0 +1,4 @@
+Total messages sent: 558
+Earliest time: 44220.405911
+Latest time: 44221.479702
+Duration: 1.0737909999952535

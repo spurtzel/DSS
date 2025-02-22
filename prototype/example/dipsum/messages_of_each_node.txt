@@ -1,0 +1,60 @@
+Messages sent by Node 1: 2
+Time when Node 1: 2025-02-22 12:17:00.405911 started 
+Time when Node 1: 2025-02-22 12:17:00.411131 finished 
+Messages sent by Node 5: 11
+Time when Node 5: 2025-02-22 12:17:00.408375 started 
+Time when Node 5: 2025-02-22 12:17:00.411545 finished 
+Messages sent by Node 11: 13
+Time when Node 11: 2025-02-22 12:17:00.414255 started 
+Time when Node 11: 2025-02-22 12:17:00.417601 finished 
+Messages sent by Node 7: 10
+Time when Node 7: 2025-02-22 12:17:00.431647 started 
+Time when Node 7: 2025-02-22 12:17:00.434763 finished 
+Messages sent by Node 19: 13
+Time when Node 19: 2025-02-22 12:17:00.438306 started 
+Time when Node 19: 2025-02-22 12:17:00.442657 finished 
+Messages sent by Node 0: 18
+Time when Node 0: 2025-02-22 12:17:00.424986 started 
+Time when Node 0: 2025-02-22 12:17:01.461641 finished 
+Messages sent by Node 12: 12
+Time when Node 12: 2025-02-22 12:17:00.448299 started 
+Time when Node 12: 2025-02-22 12:17:01.462464 finished 
+Messages sent by Node 9: 12
+Time when Node 9: 2025-02-22 12:17:00.411610 started 
+Time when Node 9: 2025-02-22 12:17:01.463130 finished 
+Messages sent by Node 4: 19
+Time when Node 4: 2025-02-22 12:17:00.444944 started 
+Time when Node 4: 2025-02-22 12:17:01.463198 finished 
+Messages sent by Node 18: 9
+Time when Node 18: 2025-02-22 12:17:00.444952 started 
+Time when Node 18: 2025-02-22 12:17:01.463233 finished 
+Messages sent by Node 3: 30
+Time when Node 3: 2025-02-22 12:17:00.441593 started 
+Time when Node 3: 2025-02-22 12:17:01.463259 finished 
+Messages sent by Node 16: 21
+Time when Node 16: 2025-02-22 12:17:00.434927 started 
+Time when Node 16: 2025-02-22 12:17:01.464205 finished 
+Messages sent by Node 2: 27
+Time when Node 2: 2025-02-22 12:17:00.428359 started 
+Time when Node 2: 2025-02-22 12:17:01.464417 finished 
+Messages sent by Node 15: 11
+Time when Node 15: 2025-02-22 12:17:00.451630 started 
+Time when Node 15: 2025-02-22 12:17:01.464406 finished 
+Messages sent by Node 10: 20
+Time when Node 10: 2025-02-22 12:17:00.454948 started 
+Time when Node 10: 2025-02-22 12:17:01.465294 finished 
+Messages sent by Node 17: 270
+Time when Node 17: 2025-02-22 12:17:00.454960 started 
+Time when Node 17: 2025-02-22 12:17:01.466510 finished 
+Messages sent by Node 6: 9
+Time when Node 6: 2025-02-22 12:17:00.411605 started 
+Time when Node 6: 2025-02-22 12:17:01.478276 finished 
+Messages sent by Node 13: 15
+Time when Node 13: 2025-02-22 12:17:00.444946 started 
+Time when Node 13: 2025-02-22 12:17:01.478455 finished 
+Messages sent by Node 14: 12
+Time when Node 14: 2025-02-22 12:17:00.431616 started 
+Time when Node 14: 2025-02-22 12:17:01.478496 finished 
+Messages sent by Node 8: 24
+Time when Node 8: 2025-02-22 12:17:00.414739 started 
+Time when Node 8: 2025-02-22 12:17:01.479702 finished 

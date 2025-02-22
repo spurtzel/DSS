@@ -1,0 +1,1 @@
+{"id": 16, "forwarding": {"B": [[0, 2, 3, 4, 9, 10, 12, 15, 16, 17, 18], "AB"], "E": [[17], "ABCDEF"], "F": [[17], "ABCDEF"], "AB": [[17], "ABCDEF"], "A": [[16], "AB"], "G": [[16], "ABCDEFG"]}, "processing": {"AB": ["A", "B", ["A", "B"], 9], "ABCDEFG": ["G", "G", ["ABCDEF", "G"], 2]}}
